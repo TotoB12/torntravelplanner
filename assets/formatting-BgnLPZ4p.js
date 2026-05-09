@@ -1,0 +1,2 @@
+const m=t=>{if(t<0)return`-${m(-t)}`;const r=t%1440,o=Math.floor(r/60),n=r%60,a=o.toString().padStart(2,"0"),i=n.toString().padStart(2,"0");return`${a}:${i}`},s=Intl.NumberFormat("en",{notation:"compact",maximumFractionDigits:1,minimumFractionDigits:1}),c=t=>s.format(t),e=t=>Intl.NumberFormat(void 0,{maximumFractionDigits:0}).format(Math.round(t)),u=(t,r=2,o=0)=>`${Intl.NumberFormat("en",{minimumFractionDigits:o,maximumFractionDigits:r}).format(t)}%`;export{m as a,e as b,u as c,c as f};
+//# sourceMappingURL=formatting-BgnLPZ4p.js.map

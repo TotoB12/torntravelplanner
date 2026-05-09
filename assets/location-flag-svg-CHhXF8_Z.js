@@ -1,0 +1,2 @@
+import{j as t,t as a}from"./main-BwugLcyz.js";const n=e=>e==="United Arab Emirates"?"uae":e==="United Kingdom"?"uk":e==="Cayman Islands"?"cayman":e.toLowerCase().replace(/\s/g,"_"),m=({location:e,className:r})=>{const s=`https://www.torn.com/images/v2/travel_agency/flags/fl_${n(e)}.svg`;return t.jsx("img",{src:s,alt:e,className:a("size-8",r),title:e})};export{m as L};
+//# sourceMappingURL=location-flag-svg-CHhXF8_Z.js.map

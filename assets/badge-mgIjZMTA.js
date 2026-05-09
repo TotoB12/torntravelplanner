@@ -1,0 +1,2 @@
+import{j as o,b as a}from"./main-BwugLcyz.js";import{t as n}from"./section-header-DS-whemm.js";const p={xs:"px-1.5 py-0.5 text-xs",sm:"px-2 py-0.5 text-sm",md:"px-3 py-1 text-base"};function c({colorTheme:t,text:e,size:x="sm",className:m}){const s=n[t];return o.jsx("span",{className:a("rounded font-bold",s.badgeBg,p[x],s.badgeText,m),children:e})}export{c as B};
+//# sourceMappingURL=badge-mgIjZMTA.js.map
